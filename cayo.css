@@ -1,0 +1,403 @@
+/* bod */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS';
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f6d995;
+    color: black;
+}
+/* pala anjay */
+header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 20px 80px;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    transition:ease 1s ;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.NT {
+    font-size: 60px;
+    /* font-weight: 696; */
+    font-weight: bolder;
+    color: white;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+}
+.NT img{
+vertical-align: bottom;
+    /* right: 0; */
+    width: 20%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar img{
+    width: 10%;
+}
+.navbar a {
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    border-radius: 80%;
+    padding: 10px 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.navbar a:hover {
+    background: white;
+    color: lightskyblue;
+    border-radius: 80%px;
+    border: solid black 0.5px;
+    outline: none;
+    box-shadow: 0 5px 5px black;
+}
+
+#menu {
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    display: none;
+    cursor: pointer;
+}
+
+header.sticky {
+    background: mediumslateblue;
+    padding: 10px 18%;
+    box-shadow: 0 10px 10px #757676
+}
+
+.sticky.NT {
+    color: white;
+}
+
+.spar {
+    font-size: 60px;
+    cursor: pointer;
+}
+/* bawah */
+.produk {
+    padding-left: 45px;
+}
+
+.images {
+    width: 270px;
+    pointer-events: none;
+}
+
+.NMH {
+    cursor: pointer;
+    pointer-events: none;
+    font-size: 25px;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 6969px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    bottom: 3.5%;
+    right: 6%;
+    position: absolute;
+    /* position: absolute; */
+}
+.tam{
+    background-color: darkcyan;
+    color: white;
+    border-radius: 6969px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    bottom: 3.5%;
+    right: 40%;
+    position: absolute;
+    /* position: absolute; */
+}
+/* kalk */
+input[type=number] {
+    width: 25%;
+    height: 10%;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute; 
+    bottom: 10px;
+    right: 30px;
+}
+
+button:hover {
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 6969px;
+    transition: 0.5s;
+    box-shadow: 0 10px 30px #111414;
+}
+
+.kalkulator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 500px;
+    width: 470px;
+    margin: auto;
+    background-color: darkred;
+}
+
+.display-box {
+    font-family: Rockwell;
+    background-color: dimgray;
+    border: solid black 0.5px;
+    color: black;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: black;
+}
+/* produk */
+.section-p1{
+    padding: 25px 40px;
+}
+input :active[type=button] {
+    background: yellowgreen;
+
+}
+
+.products {
+    margin-left: 50px;
+    float: left;
+    width: auto;
+}
+.product{
+    padding-top: 50px;
+}
+.lp {
+    font-family: Courier;
+     border: 1px solid slategray;
+     border-radius: 4px;
+    padding: 10px;
+    float: left;
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 400px;
+    max-height: 400px;
+    margin: 30px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px #757676;      
+    margin-left: 115px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    position: relative;
+}
+
+.lp img {
+    width: 200px;
+    height: 270px;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+} 
+/* pesan */
+.CO{
+    padding: 2%;
+    position: relative;
+    /* clear: none; */
+    bottom: 0;
+    float: right;
+}
+/* kate */
+.kategori{
+    font-family: Courier;
+     border: 1px solid slategray;
+     border-radius: 4px;
+    padding: 20px;
+    float: left;
+    min-width: 180px;
+    max-width: 225px;
+    min-height: 180px;
+    max-height: 350px;
+    margin: 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px #757676;      
+    margin-left: 3%;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+ 
+}
+.kalkulator{
+    font-family: Courier;
+    border: 1px solid slategray;
+    border-radius: 4px;
+   padding: 20px;
+   min-width: 80px;
+   max-width: 100px;
+   min-height: 100px;
+   max-height: 120px;
+   margin: 20px;
+   background-color: whitesmoke;
+   box-shadow: 5px 5px 5px #757676;      
+   margin-left: 3%;
+   cursor: pointer;
+   font-size: 16px;
+   color: black;
+   margin-bottom: 20%;
+}
+.kalkulator img{
+    max-width: 90%;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+.kategori img{
+    max-width: 50%;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 6px;
+ 
+}
+.index{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.index h4{
+color: gray;
+}
+.isi a{
+    float: right;
+    margin-right: 5%;
+}
+.beli a{
+    border-radius: 80px;
+    padding: 10px 45px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.beli a:hover{
+    background-color: greenyellow;
+    box-shadow:  5px 5px 8px  gray ;
+    border: white 1px solid;
+    outline: none;
+    border-radius: 80px;
+}
+
+
+footer {   
+    position: relative;
+    clear: none;
+    bottom: 0;
+    float: left;
+    background-color: #111414;
+    height: 30%;
+    width: 100%;
+    color: #fff;
+}
+.content{
+    margin-right: 2.7%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content h4{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+    .bottom{
+    background: #000;
+    width: 100%;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .bottom p a{
+    color:#44bae8;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  /* kalk */
+  .kalk{
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: darkgrey;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.displaybox{
+    font-family: 'Lucida Sans';
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+#btn{
+    background-color: #fb0066;
+}
+ input[type=button]{
+    font-family: 'Impact';
+    background-color: darkcyan;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+ }
+ input:active[type=button]{
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 0px 5px #c1c1c1;
+ }
+ td :hover{
+    background-color: aquamarine;
+    color: black; 
+}
